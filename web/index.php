@@ -23,8 +23,8 @@ $app = new Silex\Application();
 
 $app->get('/', function () {
 
-    return 'Updated php';
-    
+    return 'Holllly crap. This works. I successfully launched a php site using the gcloud command.';
+
 });
 
 $app->get('/goodbye', function () {
